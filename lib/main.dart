@@ -17,6 +17,7 @@ class XylophoneApp extends StatelessWidget {
           playSound(noteNumber);
         },
         color: color,
+        child: Text(''),
       ),
     );
   }
